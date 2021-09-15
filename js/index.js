@@ -10,6 +10,7 @@ function likesum(num){
     let likesnumber = document.querySelectorAll(".likes");
     var sum = parseInt(likesnumber[num].innerHTML);
     sum += 1;
-    likesnumber[num].innerHTML = sum;(likesnumber[num].innerHTML);
+    likesnumber[num].innerHTML = sum;
+    (likesnumber[num].innerHTML);
 }   
 
